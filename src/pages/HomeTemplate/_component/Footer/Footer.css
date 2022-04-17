@@ -1,0 +1,20 @@
+.footer {
+    color: rgb(56, 56, 56);
+    padding: 1% 0;
+}
+.footer:hover {
+    color: rgb(56, 56, 56);
+}
+
+@media screen and (max-width: 540px) {
+    .footer-contact {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    .footer-term  {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+        margin-top: 15px;
+    }
+}

@@ -1,0 +1,8 @@
+@media screen and (max-width: 540px) {
+    .list-room {
+        width: 100%;
+    }
+    .location-map {
+        display: none;
+    }
+}

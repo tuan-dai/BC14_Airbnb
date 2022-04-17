@@ -1,0 +1,17 @@
+.dropdown-toggle::after {
+    display:none;
+}
+
+/* RESPONSIVE */
+@media screen and (min-width: 375px) and (max-width: 768px)  {
+    .header-logo, .header-toggle, .header-tab {
+        display: none;
+    }
+    .header-search {
+        margin: 0 auto;
+        width: 100%;
+        background: rgb(236, 236, 236);
+        justify-content: center;
+        border: none !important;
+    }
+}

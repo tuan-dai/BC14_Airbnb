@@ -1,0 +1,13 @@
+.gradient-text {
+    -webkit-text-fill-color: transparent !important;
+    background: linear-gradient(
+90deg, #6F019C 0%, #C6017E 135.12%) !important;
+-webkit-background-clip: text !important;
+}
+
+@media screen and (max-width: 768px) {
+    .home-slider, .slider-image {
+        width: 100% !important;
+        border-radius: 0;
+    }
+}
